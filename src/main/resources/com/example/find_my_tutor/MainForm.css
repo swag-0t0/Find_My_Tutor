@@ -1,0 +1,47 @@
+.white-bg{
+    -fx-background-color: #ffff;
+}
+.close{
+   -fx-cursor: hand;
+    -fx-background-radius: 50px;
+    -fx-text-fill: white;
+}
+.close:hover{
+    -fx-background-color: red;
+}
+.radius{
+    -fx-background-radius: 8px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.main-bg
+{
+    -fx-background-color: linear-gradient(to bottom right, #755dcc, #2734a6);;
+}
+.btn{
+    -fx-background-color: linear-gradient(to bottom right , #1f90c0, #1462d9);
+    -fx-cursor: hand;
+}
+.table-view{
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-border-color: linear-gradient(to bottom right , #1f90c0, #1462d9);
+    -fx-border-radius: 8px;
+}
+.table-view.column-header-background{
+    -fx-background-color:linear-gradient(to bottom right , #1f90c0, #1462d9);
+    -fx-background-radius: 8px 8px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+
+    -fx-text-fill: #fff;
+}
+
